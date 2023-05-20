@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Responsive Sidebar Nico</title>
+        <link rel="stylesheet" href="style.css" />
+        <link
+            href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+            rel="stylesheet"
+        />
+    </head>
+
+    <body>
+        <section>
+            <div class="sidebar">
+                <div class="logo-content">
+                    <div class="logo">
+                        <i class="bx bxl-dribbble"></i>
+                        <h3>Nico</h3>
+                    </div>
+                    <i class="bx bx-menu" id="btn"></i>
+                </div>
+
+                <ul class="list">
+                    <li class="list-item">
+                        <i class="bx bxs-search-alt-2"></i>
+                        <input type="text" placeholder="Search..." />
+                    </li>
+                    <li class="list-item active">
+                        <a href="#">
+                            <i class="bx bxs-grid-alt"></i>
+                            <span class="links-name">Dashboard</span>
+                        </a>
+                        <span class="tooltip">Dashboard</span>
+                    </li>
+                    <li class="list-item">
+                        <a href="#">
+                            <i class="bx bxs-user"></i>
+                            <span class="links-name">User</span>
+                        </a>
+                        <span class="tooltip">User</span>
+                    </li>
+                    <li class="list-item">
+                        <a href="#">
+                            <i class="bx bxs-chat"></i>
+                            <span class="links-name">Messages</span>
+                        </a>
+                        <span class="tooltip">Messages</span>
+                    </li>
+                    <li class="list-item">
+                        <a href="#">
+                            <i class="bx bxs-bar-chart-alt-2"></i>
+                            <span class="links-name">Analytics</span>
+                        </a>
+                        <span class="tooltip">Analytics</span>
+                    </li>
+                    <li class="list-item">
+                        <a href="#">
+                            <i class="bx bxs-folder"></i>
+                            <span class="links-name">File Manager</span>
+                        </a>
+                        <span class="tooltip">File Manager</span>
+                    </li>
+                    <li class="list-item">
+                        <a href="#">
+                            <i class="bx bxs-cart-alt"></i>
+                            <span class="links-name">Order</span>
+                        </a>
+                        <span class="tooltip">Order</span>
+                    </li>
+                    <li class="list-item">
+                        <a href="#">
+                            <i class="bx bxs-heart"></i>
+                            <span class="links-name">Liked</span>
+                        </a>
+                        <span class="tooltip">Liked</span>
+                    </li>
+                    <li class="list-item">
+                        <a href="#">
+                            <i class="bx bxs-cog"></i>
+                            <span class="links-name">Settings</span>
+                        </a>
+                        <span class="tooltip">Settings</span>
+                    </li>
+                </ul>
+
+                <ul class="list-logout">
+                    <li>
+                        <a href="#">
+                            <i class="bx bxs-sad"></i>
+                            <span class="links-name">Logout</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <script src="script.js"></script>
+    </body>
+</html>
